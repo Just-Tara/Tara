@@ -1,0 +1,344 @@
+body {
+  background-color: hsl(0, 0%, 7%);
+  align-items: center;
+  justify-content: center;
+/*   max-width: 100%; */
+  display: flex;
+}
+
+.container {
+  background-color: #eee;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  position:relative;
+  
+  
+}
+
+/* Mobile View */
+h1 {
+  font-size: 30px;
+  font-weight: 10px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.media {
+  color: hsl(0, 0%, 100%);
+}
+
+.social {
+  background-color: hsl(256, 67%, 59%);
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px 10px;
+  padding: 20px 20px;
+  display:block;
+}
+
+.so-cial {
+  background-color: hsl(256, 67%, 59%);
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px 10px;
+  padding: 20px 30px;
+  display: block;
+}
+.non-stop{
+    color: #ffffff;
+}
+
+.multiple-platform {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  align-items: center;
+  margin: 15px 10px;
+  padding: 1px;
+}
+
+.platform {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  align-items: center;
+  margin: 15px 10px;
+  padding: 1px;
+}
+
+.growth {
+  margin: 0px 20px;
+}
+
+.schedule {
+  background-color: hsl(39, 100%, 71%);
+  border-radius: 10px;
+  margin: 15px 10px;
+  padding: 5PX 0;
+  display: block;
+}
+
+.sche-dule {
+  background-color: hsl(39, 100%, 71%);
+  border-radius: 10px;
+  margin: 15px 10px;
+  padding: 5PX 0px;
+  
+}
+
+.consistent {
+  margin:10px 20px;
+  width: 70%;
+}
+
+
+.consist {
+  margin: 5px 20px;
+  width: 80%;
+}
+.content-img{
+    width: 160px;
+}
+
+.con_tent {
+  width: 160px; 
+}
+
+.social-media {
+  background-color: hsl(254, 88%, 90%);
+  border-radius: 10px;
+  margin: 15px 10px;
+  padding: 1px;
+  display: block;
+}
+
+.post {
+  margin: 2px 10px;
+  text-align: center;
+}
+.review{
+    color: #ffffff;
+}
+
+.follow {
+  margin: 10px 0;
+}
+
+.faster {
+  font-style: italic;
+}
+
+.quick {
+  font-style: italic;
+  color: hsl(256, 67%, 59%);
+}
+
+.create {
+  background-color: hsl(31, 66%, 93%);
+  border-radius: 10px;
+  margin: 15px 10px;
+  padding: 1px;
+  display:block;
+}
+
+.create-content {
+  margin-left: 15px;
+  width: 70%;
+}
+
+.ten {
+  color: hsl(39, 100%, 71%);
+}
+
+.image {
+  width: 180px;
+}
+.create-image{
+    width: 180px;
+}
+
+.content {
+  width: 230px;
+}
+
+.con-tent {
+  width: 215px;
+  margin: 10px 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Desktop View */
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-areas: 
+  'create social social social-media'
+ 'create multiple-platform schedule social-media'
+ 'sche-dule multiple-platform schedule social-media'
+ 'sche-dule platform so-cial so-cial';
+    gap:5px; 
+    max-width: 100%;
+    width:1700px;
+    background-color: #eee;
+    position:absolute; 
+     top: 25%;
+     padding-top: 0px;
+     padding-bottom: 35PX;  
+    padding-right: 50px;  
+   
+    
+  
+  }
+ 
+  .create { 
+    grid-area: create;
+    width: 210px;
+    padding: 50px 0;
+    margin-top: 100px;
+    margin-left: 60px;
+   
+  }
+
+  .social { 
+    grid-area: social; 
+    width: 370px;
+    margin-top:100px;
+    
+    
+  }
+  h1{
+      font-size:40px;
+  }
+  .multiple-platform { 
+    grid-area: multiple-platform; 
+    width:190px;
+    margin-top:-90px;
+   margin-left:10px; 
+   height: 200px;
+   overflow:hidden;
+   
+   
+  
+   }
+   .con-tent{
+       width: 250px;
+       font-weight:bolder;
+       overflow:hidden;
+   }
+   .multiple{
+       width: 200px;
+       margin-top: -7px;
+   }
+  .schedule { 
+    grid-area: schedule; 
+    width: 175px;
+    height:195px;
+   margin-top:-90px;
+   margin-left: 10px;
+  overflow: hidden;
+  padding-right:15px;
+   
+  }
+  .constant{
+      margin: 25PX 0;
+      padding-bottom:5px;
+  }
+  .con_tent{
+      width: 160px;   
+      margin:-30PX 0px;
+      align-items:center;
+       display:flex; 
+  }
+  .content-img{
+      width: 185px;
+  }
+   h3{
+      font-size:25px;
+      font-weight:bold;
+  }
+  .social-media { 
+    grid-area: social-media; 
+   padding:16PX 10px;
+   margin-bottom:35px;
+   width: 200px;
+   overflow:hidden;
+   
+  }
+  .content{
+      width:300px ;
+      margin: 0 10px;
+  }
+  .cons-tant{
+      margin-left:10PX;
+      text-align:start;
+  }
+  .so-cial{
+      grid-area:so-cial;   
+      width: 420px;
+      display:flex;   
+     padding: 0px 10px; 
+      margin-top:-95px;
+      height:202px;
+      
+      
+  }
+  .follow{
+      float:left;
+      width: 190px;
+      margin-top:20px;
+      margin-left: 5px;
+  }
+  .non-stop{
+      text-align:start;
+      color: #fff;
+      font-size:25px;
+      font-style: normal;
+      padding: 40px 0;
+  }
+ 
+  .sche-dule { 
+    grid-area: sche-dule; 
+    width: 210px;
+    padding: 20px 0;
+    margin-top:0;    
+    margin-left:60px;
+  }
+
+  .platform { 
+    grid-area: platform; 
+    margin-top: -95px;
+   width: 190px;
+   height:200px;
+   
+  }
+  .image{
+      width: 170px;
+      justify-content:center;
+  }
+  .create-image{
+        width: 160px;
+      justify-content:center;
+    margin: 17px 0; 
+  }
+  .paragraph{
+      font-size:18px;
+     margin: -17px 0;
+  }
+  .attribution{
+      text-align:center;
+      font-size:16px;
+      position:absolute;
+      bottom: 5px;
+      width: 100%;  
+  }
+}
