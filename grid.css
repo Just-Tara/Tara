@@ -190,23 +190,7 @@ h3 {
     max-width: 100%;
     width:1700px;
     background-color: #eee;
-    position:absolute; 
-     top: 25%;
-     padding-top: 0px;
-     padding-bottom: 35PX;  
-    padding-right: 50px;  
-   
-    
-  
-  }
- 
-  .create { 
-    grid-area: create;
-    width: 210px;
-    padding: 50px 0;
-    margin-top: 100px;
-    margin-left: 60px;
-   
+     padding: 0 50PX 30PX 10px;
   }
 
   .social { 
